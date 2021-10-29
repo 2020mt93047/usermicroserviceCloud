@@ -29,7 +29,7 @@ const mongoose = require('mongoose');
 require("./User")
 const User =mongoose.model("User");
 
-//const {MongoClient} = require('mongodb');
+
 
 
 const uri ="mongodb+srv://ToDoUser:ToDo%40Password@cluster0.fa1jn.mongodb.net/Users?retryWrites=true&w=majority";
