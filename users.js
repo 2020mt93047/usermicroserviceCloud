@@ -88,13 +88,6 @@ app.post('/adduser', (req, res) => {
 
     var user= new User(newuser);
 
-    // user.save().then(() => {
-    //     console.log("New User Created")
-    // }).catch((err) => {
-    //     if(err){
-    //         throw err;
-    //     }
-    // })
 
     user.save(function(err,user){
         console.log("New User Created")
